@@ -1,29 +1,22 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        .light{
-            fill:transparent;
-            stroke: #eee;
-            stroke-width: 1rem;
+<svg xmlns="http://www.w3.org/2000/svg" width="940px" height="942px">
+  <style>
+    .light {
+        fill:#FEFEFE;
         }
-        .stroke{
-            fill:transparent;
-            stroke:#248; 
-            stroke-width: 1rem;
+    .dark {
+        fill:#3E4095;
         }
-    </style>
-    <polygon 
-        style="fill:#0ff"
-        points="0,75 0,225 150,300 150,150"/>
-    <polygon 
-        style="fill:#ff0"
-        points="150,0 0,75 150,150 300,75"/>
-    <polyline class="light" points="155,285 15,215 15,90"
-        />
-    <polygon 
-        style="fill:#f0f"
-        points="300,75 300,225 150,300 150,150"/>
-    <polyline class="stroke" points="150,300 0,225 0,75 310,225"/>
-    <polyline class="light" points="0,60 310,210"/>
-    <polyline class="stroke" points="150,160 295,100 295,85 150,25 150,225"/>
-    <polyline class="light" points="135,225 135,0 310,75 160,140"/>
+  </style>
+  <polygon fill="cyan" points="0,235 0,705 470,940 470,470 "/>
+  <polygon fill="yellow" points="470,0 0,235 470,470 940,235 "/>
+  <polygon fill="magenta" points="940,235 940,705 470,940 470,470 "/>
+  <path class="light" d="M50 210 l420 210 0 50 -470 -235 50 -25zm420 660-400 -200 0 -330 50 25 0 275 350 175 0 55z"/>
+
+  <polygon class="dark" points="0,235 470,470 470,540 70,340 70,665 470,870 470,945 0,705 "/>
+  <polygon class="dark" points="470,470 940,235 940,305 470,540"/>
+  <polygon class="dark" points="470,45 870,245 870,300 470,100"/>
+  <polygon class="dark" points="520,30 470,0 470,760 520,730"/>
+  <polygon class="light" points="425,22.5 470,0 940,235 520,455 520,415 860,240 470,50 470,760 425,730"/>
+  <polygon class="dark" points="520,470 940,650 940,705 520,520"/>
+  <polygon class="light" points="520,520 940,705 890,730 520,570"/>
 </svg>
